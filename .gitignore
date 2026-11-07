@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Django
+db.sqlite3
+staticfiles/
+
+# Инструменты и редакторы
+.ruff_cache/
+.idea/
+.vscode/
